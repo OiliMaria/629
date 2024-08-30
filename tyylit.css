@@ -1,0 +1,98 @@
+/*head*/
+
+h1 {color: fuchsia;
+    font-size: 50px;
+    text-align: left;
+    
+
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*body*/
+
+body {
+
+    text-align: center;
+    padding: 50px auto;
+    background-color: rgb(248, 224, 228);
+    width: 900px;
+    margin: auto;
+}
+
+
+/*Headertyylit*/
+header {
+    
+background-color: rgb(248, 204, 231);
+min-height: 70px;
+border-bottom: black 3px solid;
+margin-top: auto;
+padding-top: 40px;
+
+
+}
+
+header a {
+
+    color: black;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+
+
+header nav {
+
+    float: left;
+    margin: auto;
+    padding: 50px auto;
+    
+}
+
+
+
+
+
+
+
+/*Footer*/
+footer {
+    padding: 20px;
+    color: black;
+    background-color: rgb(248, 224, 228);
+    text-align: center;
+    border-top: black 3px solid;
+
+
+}
+
+@media only screen and (max-width:750px) {
+    head,
+    header,
+    body,
+    header > nav{
+        display: block;
+        float: none;
+        height: auto;
+        width: 100%;
+        text-align: center;
+        clear: both;
+    }
+
+}
+
+
+
+
+
+
+
